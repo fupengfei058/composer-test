@@ -1,0 +1,17 @@
+{
+    "name": "composer-test/src",
+    "description": "fupengfei composer test",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "City\\Guangzhou\\": "src/City/Guangzhou",
+            "City\\Shenzhen\\": "src/City/Shenzhen",
+            "City\\Beijing\\": "src/City/Beijing"
+        }
+    }  
+}
