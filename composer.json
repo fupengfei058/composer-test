@@ -13,5 +13,8 @@
             "City\\Shenzhen\\": "src/City/Shenzhen",
             "City\\Beijing\\": "src/City/Beijing"
         }
-    }  
+    },
+    "require-dev": {
+        "vimeo/psalm": "^0.3.71"
+    }
 }
